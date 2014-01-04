@@ -1,0 +1,100 @@
+#container {
+	width: 765px;
+	height: 580px;
+	margin: 20px auto;
+	position: relative;
+}
+
+#tekst {
+	width: 765px;
+	height: 180px;
+	background-color: #444;
+	font-family: arial, sans-serif;
+	color: #bbb;
+	position: absolute;
+}
+
+#tekst h2 {
+	margin-top: 15px;
+	margin-left: 25px;
+	position: absolute;
+	color: #dd3b63;
+}
+
+#tekst p {
+	margin-top: 50px;
+	margin-left: 25px;
+	margin-right: 25px;
+	font-size: 15px;
+	position: absolute;
+}
+
+#kaart {
+	width: 580;
+	height: 400px;
+	background-color: #333;
+	position: absolute;
+	bottom: 0;
+}
+
+#legenda {
+	width: 165px;
+	height: 400px;
+	background-color: #333;
+	font-family: arial, sans-serif;
+	color: #999;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.legenda-wrapper {
+	margin-top: 115px;
+}
+
+.legenda-wrapper .legenda-titel {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+.legenda-wrapper .legenda-schaal ul {
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    float: left;
+    list-style: none;
+}
+
+.legenda-wrapper .legenda-schaal ul li {
+    font-size: 80%;
+    list-style: none;
+    margin-left: 0;
+    line-height: 18px;
+    margin-bottom: 2px;
+}
+
+.legenda-wrapper ul.legenda-labels li span {
+    display: block;
+    float: left;
+    height: 16px;
+    width: 30px;
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+.legenda-wrapper .legenda-bron {
+    font-size: 70%;
+    color: #999;
+    clear: both;
+}
+
+.legenda-wrapper a {
+    color: #e86787;
+}
+
+path {
+	stroke: #333;
+	stroke-width:; 0.5;
+}
